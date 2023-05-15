@@ -1,0 +1,4 @@
+﻿  kw80292PracaLicencjacka.cpp
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(2026,1): warning C4129: "	": nierozpoznany znak sekwencji ucieczki
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(2393,10): warning C4129: " ": nierozpoznany znak sekwencji ucieczki
+LINK : fatal error LNK1104: nie można otworzyć pliku „C:\Users\User\source\repos\kw80292PracaLicencjacka\x64\Release\kw80292PracaLicencjacka.exe”

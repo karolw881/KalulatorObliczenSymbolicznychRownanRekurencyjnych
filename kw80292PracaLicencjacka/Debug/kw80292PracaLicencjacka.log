@@ -1,0 +1,9 @@
+﻿  kw80292PracaLicencjacka.cpp
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(639,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(670,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(704,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(710,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(726,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(2154,1): warning C4129: "	": nierozpoznany znak sekwencji ucieczki
+C:\Users\User\source\repos\kw80292PracaLicencjacka\kw80292PracaLicencjacka.cpp(2522,10): warning C4129: " ": nierozpoznany znak sekwencji ucieczki
+  kw80292PracaLicencjacka.vcxproj -> C:\Users\User\source\repos\kw80292PracaLicencjacka\Debug\kw80292PracaLicencjacka.exe

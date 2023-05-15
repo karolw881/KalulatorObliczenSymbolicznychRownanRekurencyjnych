@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\begin{document}
+ 
+ 
+ $$  Rownanie  Rekurencyjne  $$ $$ *******-(1)-(0\cdot(1))+(1)*******1\cdot-(0\cdot(1))-1+(0)*******((1)^{1})-1\cdot(0)-1+1\cdot-(0\cdot(1))-1$$ 
+  
+ 
+  $$   {{x}}_{{n}} = (1\cdot{{x}}_{{n-1}})+(1\cdot{{x}}_{{n-2}})$$ 
+  
+ 
+  $$ $$ 
+ 
+ 
+ $$f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+\sum_{{n} = {2}}^{{\infty}}{{a}}_{{n}}\cdot{x}^{n}$$ 
+  
+ 
+  $$    $$ 
+  
+ 
+  $$   f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+\sum_{{i} = {2}}^{{\infty}}(1\cdot{{a}}_{{n-1}})+(1\cdot{{a}}_{{n-2}})\cdot{x}^{n}$$ 
+ 
+ 
+ $$ f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+\sum_{{n} = {2}}^{{\infty}}(1\cdot{{a}}_{{n-1}}\cdot{x}^{n})+(1\cdot{{a}}_{{n-2}}\cdot{x}^{n})$$ 
+  
+ 
+  $$    f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+\sum_{{n} = {2}}^{{\infty}}1\cdot({{a}}_{{n-1}}\cdot{x}^{n-1})\cdot{x}+\sum_{{n} = {2}}^{{\infty}}1\cdot({{a}}_{{n-2}}\cdot{x}^{n-2})\cdot{x}^{2} $$
+ 
+ 
+ $$		f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+(1\cdot{x}\cdot\sum_{{j} = {1}}^{{\infty}}{{a}}_{{j}}\cdot{x}^{j})+(1\cdot{x}^{2}\cdot\sum_{{i} = {0}}^{{\infty}}{{a}}_{{i}}\cdot{x}^{i }) $$
+  $$		$$ 
+ $$  f(x) = ({{a}}_{0}\cdot{x}^{0})+({{a}}_{1}\cdot{x}^{1})+(1\cdot{x}\cdot({f(x)})-{{a}}_{{0}}\cdot{x}^{0})+(1\cdot{x}^{2}\cdot{f(x)})$$ 
+   $$  $$ 
+ $$  $$ 
+ $$  {f(x)}\cdot({1}-(1\cdot{x})-(1\cdot{x})-(1\cdot{x}^{2})) = (0\cdot{x}^{0})+(1\cdot{x}\cdot(0))$$ 
+  
+ 
+  $$ f(x) =    \frac{(0\cdot{x}^{0})+(1\cdot{x}\cdot(0))}{{f(x)}\cdot({1}-(1\cdot{x})-(1\cdot{x})-(1\cdot{x}^{2}))}$$
+  
+ 
+ 
+    $$  f(x) =  \n\frac{(0)+(1\cdot{x}\cdot(0))}{{1}-(1\cdot{x})-(1\cdot{x})-(1\cdot{x}^{2})}  $$ 
+ 
+  $$   \frac{(0)+(1\cdot{x}\cdot(0))}{-(1\cdot{x}^{2})-((1\cdot{x})+(1\cdot{x}))+(1)}(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1)) $$ \n \n  \Delta = 8 $$ $$  \n \n  $$ $$   $$\n  \\ $$            x1  = -2.41421 = \frac{-(-((1)+(1)))+\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}}}{2\cdot-(1)} $$ $$   $$   $$\n  \\ $$  x2 =  0.414214  =  \frac{-(-((1)+(1)))-(\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}})}{2\cdot-(1)}   $$ $$   $$ 
+ 
+  $$     $$ 
+ 
+  $$   (0)+(1\cdot{x}\cdot(0)) = (\frac{{A}}{{x}-(\frac{-(-((1)+(1)))+\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}}}{2\cdot-(1)})})+(\frac{{B}}{{x}-(\frac{-(-((1)+(1)))-(\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}})}{2\cdot-(1)})}) $$  \\ $$ $$  (0)+(1\cdot{x}\cdot(0)) = {x}\cdot(-(1)\cdot(1))+(-((1)+(1))\cdot(1))\cdot{x} $$  \\ $$ $$   $$  		\n $$ $$   $$  \\ \\ \\ $$ $$  (0)+(0\cdot(1)) = (-(1)\cdot(1))+(-((1)+(1))\cdot(1))\cdot{x}\\(0)+(1\cdot{x}\cdot(0)) = {x}\cdot(-(1)\cdot(1))+(-(1)\cdot(1))$$ \\ $$ \\ $$ \\ \underbrace{\left[\begin{array}{cccc}
+-(-(1)\cdot(\frac{-(-((1)+(1)))+\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}}}{2\cdot-(1)})\cdot(1))&-(-(1)\cdot(\frac{-(-((1)+(1)))-(\sqrt[2]{{(-((1)+(1)))^{2}+(-(4)\cdot-(1)\cdot(1))}})}{2\cdot-(1)})\cdot(1))& = 0&\\
+-(1)\cdot{A}&-(1)\cdot{B}& = 1\cdot(0)& \\
+\end{array}\right]}_{A(Wyznacznik)} $$ \\ $$ \\ $$ \\ \underbrace{\left[\begin{array}{cccc}
+-(-(1)\cdot(-2.41421))&-(-(1)\cdot(0.414214))& = 0&\\
+-(1)&-(1)& = 1\cdot(0)& \\
+\end{array}\right]}_{A(Wyznacznik)}   $$ \n $$  W1 =  -0  $$ \n $$  W2  =  0$$ \\ $$ \\ $$ \\ \underbrace{\left[\begin{array}{cccc}
+7&2& = 1&\\
+3&4& = 2& \\
+\end{array}\right]}_{A(Wyznacznik)}   A -0.0666667 B  0.733333 $$ \\  $$ $$ \\$$  $$ \\ $$ $$\\ $$   $$ f(x) =  (\frac{{A}}{{x}-({{x}}_{{1}})})+(\frac{{B}}{{x}-({{x}}_{{2}})}) $$  \\ $$ $$   $$  \\ $$ $$  (\frac{{A}}{-({{x}}_{{1}})}\cdot\sum_{{n} = {0}}^{{\infty}}(\frac{{x}}{{{x}}_{{1}}})^{n})+(\frac{{B}}{-({{x}}_{{2}})}\cdot\sum_{{n} = {0}}^{{\infty}}(\frac{{x}}{{x}^{2}})^{n}) $$  \\ $$ $$   $$  \\ $$ $$   $$  \\ $$ $$   $$  \\ $$ $$  \sum_{{n} = {0}}^{{\infty}}(\frac{-0}{-(-2.41421)}\cdot(\frac{{x}}{{{x}}_{{1}}}))^{n}+\sum_{{n} = {0}}^{{\infty}}\frac{0}{-(0.414214)}\cdot(\frac{{{x}}_{{1}}}{{x}^{2}})^{n} $$  \\ $$ $$   $$  \\ $$ $$  \sum_{{n} = {0}}^{{\infty}}(\frac{{A}}{-({{x}}_{{1}})}\cdot(\frac{{x}^{n}}{{{x}}_{{1}}^{n}}))+(\frac{{A}}{-({{x}}_{{1}})}\cdot(\frac{{x}^{n}}{{{x}}_{{1}}^{n}}))\cdot{x}^{n} $$  \\ $$ $$   $$  \\ $$ $$  \sum_{{n} = {0}}^{{\infty}}(-0\cdot(\frac{{1}}{{{x}}_{{1}}^{n}}))+(0.414214\cdot(\frac{{1}}{{{x}}_{{2}}^{n}}))\cdot{x}^{n}$$
+ 
+ 
+ $$  $$  Metoda Przewidywan  $$ {x}^{n} = (1\cdot{x}^{{n - 1}})+(1\cdot{x}^{{n -1}})$$ \n \n \n $${x}^{2} = (1\cdot{x})+(1)$$ \n \n \n $${x}^{2}-(1\cdot{x})-(1) = 0 $$ \n \n \n $$\Delta = $$ \Delta = ((-(1))^{2})-4\cdot(1)\cdot-(1) = 5 $$$$ \sqrt{\Delta} = 1.1487 $$ \ \ \\ x1 =     \frac{1-(\sqrt[2]{{5}})}{2} \ \ \\ x2 =     \frac{(1)+\sqrt[2]{{5}}}{2} \ \ \\   {{d}}_{{n}}   =    0 = ({C}\cdot(\frac{1-(\sqrt[2]{{5}})}{2})^{n})+({C}\cdot(\frac{(1)+\sqrt[2]{{5}}}{2})^{n}) \ \ \\   ({{C}}_{{1}}\cdot(\frac{1-(\sqrt[2]{{5}})}{2})^{0})+({{C}}_{{2}}\cdot(\frac{(1)+\sqrt[2]{{5}}}{2})^{0}) \ \ \\   ({{C}}_{{1}}\cdot(\frac{1-(\sqrt[2]{{5}})}{2})^{1})+({{C}}_{{2}}\cdot(\frac{(1)+\sqrt[2]{{5}}}{2})^{1})$$ \\ $$ \\ $$ \\ Macierz \n$$ \\ $$ \\ $$ \\ \underbrace{\left[\begin{array}{cccc}
+{{C}}_{{1}}&{{C}}_{{2}}& = {Z}&\\
+{{x}}_{{1}}&{{x}}_{{2}}& = {J}& \\
+\end{array}\right]}_{A(Wyznacznik)} w1 = -0.447214  w2 =  0.447214 \ \ \\   (-0.447214\cdot(\frac{1-(\sqrt[2]{{5}})}{2})^{n})+(0.447214\cdot(\frac{(1)+\sqrt[2]{{5}}}{2})^{n}) TEST SKROTU (1)+(2)$$
+ $$ \end{document}

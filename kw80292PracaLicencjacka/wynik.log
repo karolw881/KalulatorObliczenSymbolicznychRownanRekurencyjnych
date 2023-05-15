@@ -1,0 +1,472 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.3)  12 MAY 2023 16:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./wynik.tex
+(wynik.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box51
+) (wynik.aux)
+\openout1 = `wynik.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+
+Overfull \hbox (69.101pt too wide) detected at line 5
+\OMS/cmsy/m/n/12 ^^C ^^C ^^C ^^C ^^C ^^C ^^C ^^@ \OT1/cmr/m/n/12 (1) \OMS/cmsy/
+m/n/12 ^^@ \OT1/cmr/m/n/12 (0 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1)) + (1) \
+OMS/cmsy/m/n/12 ^^C ^^C ^^C ^^C ^^C ^^C ^^C \OT1/cmr/m/n/12 1 \OMS/cmsy/m/n/12 
+^^A ^^@\OT1/cmr/m/n/12 (0 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1)) \OMS/cmsy/m
+/n/12 ^^@ \OT1/cmr/m/n/12 1 + (0) \OMS/cmsy/m/n/12 ^^C ^^C ^^C ^^C ^^C ^^C ^^C 
+\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 ) \OMS/cmsy/m/n/12 ^^@ \OM
+L/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (0) \OMS/cmsy/m/n/12 ^^@ \
+OT1/cmr/m/n/12 1 + 1 \OMS/cmsy/m/n/12 ^^A ^^@\OT1/cmr/m/n/12 (0 \OMS/cmsy/m/n/1
+2 ^^A \OT1/cmr/m/n/12 (1)) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 1
+ []
+
+! Undefined control sequence.
+l.42     $$  f(x) =  \n
+                       \frac{{{a}}_{{0}}+({x}\cdot({{a}}_{{1}}+(-({A})\cdot{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44   $$    f(x) =  \n
+                       \frac{(0)+({x}\cdot((1)+(-({A})\cdot(0)\cdot(1))))}{-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (779.63574pt too wide) detected at line 44
+\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = [](\OM
+S/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 ))[] + (\OM
+S/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 (4) \OMS/cmsy/m/n/12 ^^A ^^@\OT1/cmr/m/n/12 (1
+) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (1))\OML/cmm/m/it/12 reduce\OT1/cmr/m/n/
+12 0[] \OML/cmm/m/it/12 dodawanieRzeczywistaunarneodejmowanieunarneodejmowanieR
+zeczywistaRzeczywistaunarneodejmowanieunarneodejmowanieRzeczywista\OT1/cmr/m/n/
+12 65536[] 
+ []
+
+[1
+
+{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+! Undefined control sequence.
+l.44 ...unarneodejmowanieRzeczywista65536 \\ $$ \n
+                                                   \n  \Delta = 65536dodawan...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 ...rneodejmowanieRzeczywista65536 \\ $$ \n \n
+                                                    \Delta = 65536dodawanieu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 ...owanieRzeczywista65536 \\ $$ \n \n  \Delta
+                                                   = 65536dodawanieunarneode...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.44 ...istaRzeczywistaunarneodejmowanie $$ $$  \n
+                                                   \n  $$ $$   $$\n  \\ $$  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 ...aRzeczywistaunarneodejmowanie $$ $$  \n \n
+                                                    $$ $$   $$\n  \\ $$     ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \n 
+                   
+l.44 ...arneodejmowanie $$ $$  \n \n  $$ $$   $$\n
+                                                    \\ $$            x1  = -...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \n 
+                   
+l.44 ...staRzeczywistaunarneodejmowanie  $$   $$\n
+                                                    \\ $$  x2 =  8  =  \frac...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.45 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (69.03201pt too wide) in paragraph at lines 44--45
+$\OT1/cmr/m/n/12 ^^A = 65536\OML/cmm/m/it/12 dodawanieunarneodejmowanieRzeczywi
+staRzeczywistaunarneodejmowanie$$$$$$$$$$[] 
+ []
+
+
+Overfull \hbox (156.9033pt too wide) in paragraph at lines 44--45
+[]\OML/cmm/m/it/12 dodawanieunarneodejmowaniepierwiastekRzeczywistaRzeczywistau
+narneodejmowanie$$$$[] 
+ []
+
+
+Overfull \hbox (53.88443pt too wide) detected at line 48
+\OT1/cmr/m/n/12 (0) + (\OML/cmm/m/it/12 x \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 
+((1) + (\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 A\OT1/cmr/m/n/12 
+) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 (0) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12
+ (1)))) = ([]) + ([])
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48 ...)\cdot(-2)})}) $$  \\ $$ $$  (0)+({x}\cdot
+                                                  ((1)+(-({A})\cdot(0)\cdot(...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.48 ...)\cdot(1))\cdot{x} $$  \\ $$ $$   $$  		\n
+                                                   $$ $$   $$  \\ \\ \\ $$ $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.54 ...(-1)\cdot(-1))+(-2.23007e+43)} \\    $$ \n
+                                                   $$  W1 =  -1.81899e-12  $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.54 ... \\    $$ \n $$  W1 =  -1.81899e-12  $$ \n
+                                                   $$  W2  =  1$$ \\ $$ \\ $...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.58 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (93.77573pt too wide) in paragraph at lines 48--58
+[] [] 
+ []
+
+
+Overfull \hbox (517.75856pt too wide) in paragraph at lines 48--58
+\OML/cmm/m/it/12 RzeczywistaunarneodejmowanieDzieleniewyrazeniemnozeniesymbolic
+zneunarneodejmowaniedodawanieRzeczywistaunarneodejmowaniewyrazeniemnozeniesymbo
+liczne\OT1/cmr/m/n/12 0[] 
+ []
+
+
+Overfull \hbox (2060.3352pt too wide) in paragraph at lines 48--58
+\OML/cmm/m/it/12 RzeczywistaunarneodejmowanieRzeczywistaDzielenieRzeczywistawyr
+azenieRzeczywistaDzieleniewyrazenieRzeczywistamnozeniesymboliczneunarneodejmowa
+niemnozeniesymboliczneRzeczywistaunarneodejmowaniewyrazenieRzeczywistaunarneode
+jmowanieDzielenieRzeczywistamnozeniesymboliczneunarneodejmowaniemnozeniesymboli
+czneRzeczywistaunarneodejmowanieRzeczywistawyrazenieRzeczywistawyrazenieRzeczyw
+istamnozeniesymboliczne\OT1/cmr/m/n/12 0[] 
+ []
+
+
+Overfull \hbox (482.80826pt too wide) in paragraph at lines 48--58
+[][] 
+ []
+
+
+Overfull \hbox (52.62056pt too wide) in paragraph at lines 48--58
+[] [] 
+ []
+
+
+Overfull \hbox (412.06094pt too wide) in paragraph at lines 48--58
+\OML/cmm/m/it/12 RzeczywistaunarneodejmowanieDzieleniemnozeniesymboliczneunarne
+odejmowaniedodawanieRzeczywistaunarneodejmowaniemnozeniesymboliczne \OMS/cmsy/m
+/n/12 ^^@
+ []
+
+
+Overfull \hbox (1591.80312pt too wide) in paragraph at lines 48--58
+\OML/cmm/m/it/12 RzeczywistaunarneodejmowanieRzeczywistaDzielenieRzeczywistaDzi
+elenieRzeczywistamnozeniesymboliczneunarneodejmowaniemnozeniesymboliczneRzeczyw
+istaunarneodejmowanieRzeczywistaunarneodejmowanieDzieleniemnozeniesymboliczneun
+arneodejmowaniemnozeniesymboliczneRzeczywistaunarneodejmowanieRzeczywistaRzeczy
+wistamnozeniesymboliczne \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (285.64847pt too wide) in paragraph at lines 48--58
+[][] 
+ []
+
+[2] [3]
+! Undefined control sequence.
+l.60 ...ot{x}^{{n - 1}})+(1\cdot{x}^{{n -1}})$$ \n
+                                                   \n \n $${x}^{2} = ({A}\cd...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...x}^{{n - 1}})+(1\cdot{x}^{{n -1}})$$ \n \n
+                                                   \n $${x}^{2} = ({A}\cdot{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...{{n - 1}})+(1\cdot{x}^{{n -1}})$$ \n \n \n
+                                                   $${x}^{2} = ({A}\cdot{x})...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n \n \n $${x}^{2} = ({A}\cdot{x})+(1)$$ \n
+                                                   \n \n $${x}^{2}-({A}\cdot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n \n $${x}^{2} = ({A}\cdot{x})+(1)$$ \n \n
+                                                   \n $${x}^{2}-({A}\cdot{x}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n $${x}^{2} = ({A}\cdot{x})+(1)$$ \n \n \n
+                                                   $${x}^{2}-({A}\cdot{x})-(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n \n $${x}^{2}-({A}\cdot{x})-(1) = 0 $$ \n
+                                                   \n \n $$\Delta = $$ \Delt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...n $${x}^{2}-({A}\cdot{x})-(1) = 0 $$ \n \n
+                                                   \n $$\Delta = $$ \Delta =...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.60 ...${x}^{2}-({A}\cdot{x})-(1) = 0 $$ \n \n \n
+                                                   $$\Delta = $$ \Delta = ((...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...)-(1) = 0 $$ \n \n \n $$\Delta = $$ \Delta
+                                                   = ((-({A}))^{2})-4\cdot(1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Display math should end with $$.
+<to be read again> 
+                    
+l.60 ...(-({A}))^{2})-4\cdot(1)\cdot-(1) = 4 $$$$ 
+                                                  \sqrt{\Delta} = 1.18921 $$...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...))^{2})-4\cdot(1)\cdot-(1) = 4 $$$$ \sqrt{
+                                                  \Delta} = 1.18921 $$ \ \ \...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.60 ...{4}}}{2})^{1})$$ \\ $$ \\ $$ \\ Macierz \n
+                                                  $$ \\ $$ \\ $$ \\ \underbr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 ...t(2550))+(24))(2)^{2}+(2)2 \\(6) $$ $$  \n
+                                                   \n  $$ $$   $$\n  \\ $$  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.63 ...550))+(24))(2)^{2}+(2)2 \\(6) $$ $$  \n \n
+                                                    $$ $$   $$\n  \\ $$  TES...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \n 
+                   
+l.63 ...^{2}+(2)2 \\(6) $$ $$  \n \n  $$ $$   $$\n
+                                                    \\ $$  TESTTTTTTTTTT    ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64  $$ \end{document}
+                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[4] [5] (wynik.aux) ) 
+Here is how much of TeX's memory you used:
+ 444 strings out of 475385
+ 8558 string characters out of 2777380
+ 367712 words of memory out of 3000000
+ 21899 multiletter control sequences out of 15000+600000
+ 471995 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 33i,20n,38p,1781b,149s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users
+/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb>
+Output written on wynik.pdf (5 pages, 123459 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
