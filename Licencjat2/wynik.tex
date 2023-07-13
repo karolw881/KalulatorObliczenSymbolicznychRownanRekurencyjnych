@@ -1,0 +1,140 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath} 
+\usepackage{tikz}
+\usetikzlibrary{positioning,shadows,arrows}
+\usepackage[polish]{babel} \usepackage{polski} \tikzset{fact/.style={rectangle, rounded corners=1mm, draw=black,fill=green!20,drop shadow,text centered, anchor=north, text=black},
+       leaf/.style={circle, draw=none, draw=black,fill=yellow!20, circular drop shadow,text centered, anchor=north, text=black}}
+\begin{document}
+  \begin{center}  \LARGE\textsc{Równanie  Rekurencyjne}  \end{center}  
+  \paragraph{Metoda: Szereg Formalny}    
+ \begin{equation}{{a}}_{{n}} = \begin{cases}  {3}, &  \text{dla } n = 0 \\ {4}, &  \text{dla } n = 1 \\ {1}\cdot{{a}}_{{n-1}} + {2}\cdot{{a}}_{{n-2}}, &  \text{dla } n > 1 \\\end{cases}\end{equation}
+
+\noindent Skupiamy sie na równaniu:
+\begin{equation} {{x}}_{{n}} = {1}\cdot{{x}}_{{n-1}} + {2}\cdot{{x}}_{{n-2}}\end{equation}
+
+
+\noindent Dokonujemy obliczeń symbolicznych na szeregu wykorzystując tylko zalezność rekurencyjną:
+\begin{equation}
+\begin{split}
+f(x)  &= {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + \sum_{{n} = {2}}^{{\infty}}{{a}}_{{n}}\cdot{x}^ {{n}}\\ 
+     & = {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + \sum_{{i} = {2}}^{{\infty}}({1}\cdot{{a}}_{{n-1}} + {2}\cdot{{a}}_{{n-2}})\cdot{x}^ {{n}}\\ 
+     & = {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + \sum_{{n} = {2}}^{{\infty}}({1}\cdot{{a}}_{{n-1}})\cdot{x}^ {{n}} + ({2}\cdot{{a}}_{{n-2}})\cdot{x}^ {{n}}\\ 
+     & = {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + \sum_{{n} = {2}}^{{\infty}}({1}\cdot({{a}}_{{n-1}}\cdot{x}^ {{n-1}}))\cdot{x} + \sum_{{n} = {2}}^{{\infty}}({2}\cdot({{a}}_{{n-2}}\cdot{x}^ {{n-2}}))\cdot{x}^ {{2}}\\ 
+     & = {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + ({1}\cdot{x})\cdot\sum_{{j} = {1}}^{{\infty}}{{a}}_{{j}}\cdot{x}^ {{j}} + ({2}\cdot{x}^ {{2}})\cdot\sum_{{i} = {0}}^{{\infty}}{{a}}_{{i}}\cdot{x}^ {{i }}\\ 
+     & = {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + {1}\cdot{x}\cdot(({f(x)}- ( {{a}}_{{0}} ) )) + {2}\cdot{x}^ {{2}}\cdot{f(x)}\\ 
+\end{split}
+\end{equation}
+\noindent Stąd uzyskujemy równość:
+\begin{equation}
+{f(x)}- ( {1}\cdot{x}\cdot{f(x)} ) - ( {2}\cdot{x}^ {{2}}\cdot{f(x)} ) =  {{a}}_{{0}}\cdot{x}^ {{0}} + {{a}}_{{1}}\cdot{x}^ {{1}} + {1}\cdot{x}\cdot(- ( {{a}}_{{0}} ) )\end{equation}
+Wyodrębniamy $f(x)$:
+\begin{equation}
+{f(x)}\cdot(({1}- ( {1}\cdot{x} ) - ( {2}\cdot{x}^ {{2}} ) )) = {{a}}_{{0}} + {x}\cdot(({{a}}_{{1}} + (- ( {1} ) )\cdot{{a}}_{{0}}\cdot{x}^ {{0}}))\end{equation}
+Skąd ostatecznie $f(x)$:
+\begin{equation}
+f(x) =    \frac{{{a}}_{{0}} + {x}\cdot(({{a}}_{{1}} + (- ( {1} ) )\cdot{{a}}_{{0}}\cdot{x}^ {{0}}))}{{1}- ( {1}\cdot{x} ) - ( {2}\cdot{x}^ {{2}} ) }
+\end{equation}
+W kolejnym etapie rozkładamy ułamek na ułamki proste.
+W tym celu odnajdujemy parametry pierwiastków $x_1$, $x_2$ dla których:\begin{equation}
+{1}- ( {1}\cdot{x} ) - ( {2}\cdot{x}^ {{2}} ) = -{2}\cdot (x-x_1)\cdot(x-x_2)\end{equation}
+Obliczamy delte:
+$\delta=\left({-1}\right)^ {{2}} + (- ( {4} ) )\cdot(- ( {2} ) )\cdot{1}={1} + (- ( {4} ) )\cdot(- ( {2} ) )\cdot{1}={1} + {-4}\cdot(- ( {2} ) )\cdot{1}={1} + {-4}\cdot{-2}\cdot{1}={1} + {8}={9}={9}$
+Stąd wyznaczamy pierwiastki $x_1$, $x_2$:\begin{center}\begin{minipage}{0.49\textwidth}
+\begin{align}x_1 = & \frac{ - ( - ( {1} )  )  + \sqrt[{2}]{{9}} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ - ( {-1} )  + \sqrt[{2}]{{9}} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1} + \sqrt[{2}]{{9}} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1} + {3}\cdot\sqrt[{2}]{{1}} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1} + {3}\cdot{1} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1} + {3} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {4} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {4} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {4} }{ {2}\cdot{-2} } \notag \\ &= \frac{ {4} }{ {-4} } \notag \\ &= \frac{ - ( {1} )  }{ {1} } \notag \\ &= \frac{ {-1} }{ {1} } \notag \\ &= {-1}\notag\end{align}\end{minipage}
+\begin{minipage}{0.49\textwidth}
+\begin{align}x_2 = & \frac{ - ( - ( {1} )  ) - ( \sqrt[{2}]{{9}} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ - ( {-1} ) - ( \sqrt[{2}]{{9}} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1}- ( \sqrt[{2}]{{9}} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1}- ( {3}\cdot\sqrt[{2}]{{1}} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1}- ( {3}\cdot{1} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1}- ( {3} )  }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {1} + {-3} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {-2} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {-2} }{ {2}\cdot(- ( {2} ) ) } \notag \\ &= \frac{ {-2} }{ {2}\cdot{-2} } \notag \\ &= \frac{ {-2} }{ {-4} } \notag \\ &= \frac{ - ( {-1} )  }{ {2} } \notag \\ &= \frac{ {1} }{ {2} } \notag \end{align}\end{minipage}
+\end{center}
+Z twierdzenia o rozkładzie ułamka wymiernego na ułamki proste, istnieją $C_1$, $C_2$ dla których:\begin{equation}
+\frac{ {3} + {x}\cdot({4} + (- ( {1} ) )\cdot{3}\cdot{x}^ {{0}}) }{ {1}- ( {1}\cdot{x} ) - ( {2}\cdot{x}^ {{2}} )  }  = \frac{C_1}{x-x_1}+\frac{C_2}{x-x_2}\end{equation}
+\begin{equation}
+{3} + {x}\cdot({4}- ( {1}\cdot{3} ) ) = {x}\cdot((- ( {2} ) )\cdot{{C}}_{{1}} + (- ( {2} ) )\cdot{{C}}_{{2}}) + - ( (- ( {2} ) )\cdot{{C}}_{{1}}\cdot{{x}}_{{2}} ) - ( (- ( {2} ) )\cdot{{C}}_{{2}}\cdot{{x}}_{{1}} )  \end{equation} 
+Wykorzystujac fakt, ze wielomiany są równe jeśli mają identyczne współczyniki uzyskujemy: \begin{equation}\left\{\begin{array}{r@{\;=\;}l}{3}& (- ( {2} ) )\cdot{{C}}_{{1}}\cdot{{x}}_{{2}} + (- ( {2} ) )\cdot{{C}}_{{2}}\cdot{{x}}_{{1}} \\ {4}- ( {1}\cdot{3} )  & (- ( {2} ) )\cdot{{C}}_{{1}} + (- ( {2} ) )\cdot{{C}}_{{2}} \end{array}\right.\end{equation}Podstawiamy wartości $x_1$, $x_2$ i robimy obliczenia pomocnicze:
+
+$-{2} \cdot x_2 = (- ( {2} ) )\cdot\frac{ {1} }{ {2} }  = {-2}\cdot\frac{ {1} }{ {2} }  = - ( {2}\cdot\frac{ {1} }{ {2} }  )  = - ( \frac{ {2} }{ {2} }  )  = - ( {1} )  = - ( {1} )  = {-1}$\\$-{2} \cdot x_1 = {-1} = {-2}\cdot{-1} = {2}$\\${4}- ( {1}\cdot{3} )  = {4}- ( {3} )  = {4} + {-3} = {1} = {1}$\\$- ( {2} )  = {-2}$\\Stąd nasz układ ma postać\begin{equation}\left\{\begin{array}{r@{\;=\;}r@{\;\cdot\; C_1\;+\;}r@{\;\cdot \;C_2}}{3}&{-1}&{2}\\{1} & {-2} & {-2}\\ \end{array}\right.\end{equation}Rozwiązujemy układ metodą wyznaczników:\begin{equation}\left[\begin{array}{cc|c}
+{-1}&{2}&  {3}\\
+{-2}&{-2}&  {1}\\
+\end{array}\right] \end{equation}\\\\
+$W = \left|\left[\begin{array}{cc}
+{-1} & {2} \\
+{-2} & {-2} \\
+\end{array}\right]\right|={-1}\cdot{-2}- ( {2}\cdot{-2} ) ={2}- ( {2}\cdot{-2} ) ={2}- ( {-4} ) ={2} + {4}={6}={6}$\\$W_{C_1} = \left|\left[\begin{array}{cc}
+{3} & {2} \\
+{1} & {-2} \\
+\end{array}\right]\right|={3}\cdot{-2}- ( {2}\cdot{1} ) ={-6}- ( {2}\cdot{1} ) ={-6}- ( {2} ) ={-6} + {-2}={-8}={-8}$\\$W_{C_2} = \left|\left[\begin{array}{cc}
+{-1} & {3} \\
+{-2} & {1} \\
+\end{array}\right]\right|={-1}\cdot{1}- ( {3}\cdot{-2} ) ={-1}- ( {3}\cdot{-2} ) ={-1}- ( {-6} ) ={-1} + {6}={5}={5}$\\Wyliczamy parametry $C_1$ i $C_2$:
+
+ $ C_1 =   \frac{W_{c_1}}{W }  =\frac{ {-8} }{ {6} }  = \frac{ {-4} }{ {3} } $\\ $  C_2 =   \frac{W_{c_2}}{W}  =  \frac{ {5} }{ {6} } $\\Stad:
+$$f(x)=\frac{\frac{ {-4} }{ {3} } }{x - {-1}}+\frac{\frac{ {5} }{ {6} } }{x - \frac{ {1} }{ {2} } }$$
+ Aby rozwinąć ułamki w szereg, sprowadzamy je do postaci $\frac{a}{1-b\cdot x}$.
+ W tym celu dzielimy licznik i mianownik przez $-x_1$, $-x_2$ odpowiednio.
+
+$\frac{C_1}{-x_1}=\frac{ \frac{ {-4} }{ {3} }  }{ - ( {-1} )  }  = \frac{ \frac{ {-4} }{ {3} }  }{ {1} }  = \frac{ {-4} }{ {3} } $
+
+$\frac{C_2}{-x_2}=\frac{ \frac{ {5} }{ {6} }  }{ - ( \frac{ {1} }{ {2} }  )  }  = \frac{ \frac{ {5} }{ {6} }  }{ \frac{ - ( {1} )  }{ {2} }  }  = \frac{ \frac{ {5} }{ {6} }  }{ \frac{ {-1} }{ {2} }  }  = \frac{ \frac{ {5} }{ {6} } \cdot{2} }{ {-1} }  = \frac{ \frac{ {10} }{ {6} }  }{ {-1} }  = \frac{ \frac{ {5} }{ {3} }  }{ {-1} }  = \frac{ \frac{ {5} }{ {3} }  }{ {-1} }  = \frac{ - ( \frac{ {5} }{ {3} }  )  }{ {1} }  = \frac{ \frac{ - ( {5} )  }{ {3} }  }{ {1} }  = \frac{ \frac{ {-5} }{ {3} }  }{ {1} }  = \frac{ {-5} }{ {3} } $
+
+Stąd:
+\begin{multline}f(x)=\frac{\frac{ {-4} }{ {3} } }{1-\frac{x}{{-1}}}+\frac{\frac{ {-5} }{ {3} } }{1-\frac{x}{ \frac{ {1} }{ {2} } }}\\ = \frac{ {-4} }{ {3} } \cdot \sum_{n=0}^\infty\left(\frac{x}{{-1}}\right)^n\;+\;\frac{ {-5} }{ {3} } \cdot \sum_{n=0}^\infty\left(\frac{x}{\frac{ {1} }{ {2} } }\right)^n\\=\sum_{n=0}^\infty\;\left(\frac{ {-4} }{ {3} } \cdot \left(\frac{1}{{-1}}\right)^n+\frac{ {-5} }{ {3} } \cdot \left(\frac{1}{\frac{ {1} }{ {2} } }\right)^n\right)\cdot x^n\end{multline}
+
+$a_n = \frac{ {-4} }{ {3} } \cdot\left(\frac{ - ( {1} )  }{ {1} } \right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot\left(\frac{ {1} }{ \frac{ {1} }{ {2} }  } \right)^ {{n}} = \frac{ {-4} }{ {3} } \cdot\left(\frac{ {-1} }{ {1} } \right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot\left(\frac{ {1} }{ \frac{ {1} }{ {2} }  } \right)^ {{n}} = \frac{ {-4} }{ {3} } \cdot\left({-1}\right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot\left(\frac{ {1} }{ \frac{ {1} }{ {2} }  } \right)^ {{n}} = \frac{ {-4} }{ {3} } \cdot\left({-1}\right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot\left(\frac{ {1}\cdot{2} }{ {1} } \right)^ {{n}} = \frac{ {-4} }{ {3} } \cdot\left({-1}\right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot\left(\frac{ {2} }{ {1} } \right)^ {{n}} = \frac{ {-4} }{ {3} } \cdot\left({-1}\right)^ {{n}} + \frac{ {-5} }{ {3} } \cdot{2}^ {{n}}$
+
+{4}$$
+ 
+ 
+ $$ {4} \paragraph{ Metoda : Przewidywań }    
+   \begin{equation}{{a}}_{{n}} = \begin{cases}  {3}, &  \text{ dla } n = 0 \\ {4}, &  \text{ dla } n = 1 \\ {1}\cdot{{a}}_{{n-1}} + {2}\cdot{{a}}_{{n-2}}, &  \text{ dla } n > 1 \\\end{cases} \end{equation}Skupiamy się na równaniu: \\ 
+ \begin{equation} {{x}}_{{n}} = {1}\cdot{{x}}_{{{n - 1}}} + {2}\cdot{{x}}_{{{n -2}}}\end{equation}    \\ 
+  \begin{equation}    {x}^ {{2}} = {1}\cdot{x} + {2}\end{equation}  Rozwiązujemu równanie kwadratowe:    \\ 
+  \begin{equation}  {x}^ {{2}}- ( {1}\cdot{x} ) - ( {2} )  = 0 \end{equation}Obliczamy delte: 
+ 
+ $ \Delta   = \left(- ( {1} ) \right)^ {{2}}- ( {4}\cdot{1}\cdot(- ( {2} ) ) )  = \left({-1}\right)^ {{2}}- ( {4}\cdot{1}\cdot(- ( {2} ) ) )  = {1}- ( {4}\cdot{1}\cdot(- ( {2} ) ) )  = {1}- ( {4}\cdot{1}\cdot{-2} )  = {1}- ( - ( {4}\cdot{2} )  )  = {1}- ( - ( {8} )  )  = {1}- ( {-8} )  = {1} + {8} = {9} = {9}$ 
+  $$ \sqrt{\Delta} =  \sqrt[{2}]{{9}} = 3 $$ 
+  
+ 
+       
+ Wyznaczamy pierwiastki równania kwadratowego: $$      x1 =      = $ \frac{ {1}- ( {3}\cdot\sqrt[{2}]{{1}} )  }{ {2} } $  = $ \frac{ {1}- ( {3}\cdot{1} )  }{ {2} } $  = $ \frac{ {1}- ( {3} )  }{ {2} } $  = $ \frac{ {1} + {-3} }{ {2} } $  = $ \frac{ {-2} }{ {2} } $  = $ \frac{ {-2} }{ {2} } $  = $ {-1}$ {-1}$$ 
+  
+ 
+  $$     
+ x2 =  = $ \frac{ {1} + {3}\cdot\sqrt[{2}]{{1}} }{ {2} } $  = $ \frac{ {1} + {3}\cdot{1} }{ {2} } $  = $ \frac{ {1} + {3} }{ {2} } $  = $ \frac{ {4} }{ {2} } $  = $ \frac{ {4} }{ {2} } $  = $ {2}$ {2}$$Podstawiamy pierwiastki równania kwadratowego do jawnego wzoru na n-ty wyraz:  
+  
+  \begin{equation}    {{a}}_{{n}}  =   {{C}}_{{1}}\cdot\left({-1}\right)^ {{n}} + {{C}}_{{2}}\cdot{2}^ {{n}}\end{equation}  \\ 
+ Podstawiamy pierwiastki równania kwadratowego do jawnego wzoru na zerowy wyraz: \\ 
+\begin{equation}a_0 = {{C}}_{{1}}\cdot\left({-1}\right)^ {{0}} + {{C}}_{{2}}\cdot{2}^ {{0}}\end{equation} \\ 
+ Podstawiamy pierwiastki równania kwadratowego do jawnego wzoru na pierwszy wyraz: \\ 
+ \begin{equation}    a_1 = {{C}}_{{1}}\cdot\left({-1}\right)^ {{1}} + {{C}}_{{2}}\cdot{2}^ {{1}}\end{equation} \\ 
+Podstawiamy parametry do macierzy: 
+ \begin{equation} \begin{equation}\left[\begin{array}{cc|c}
+{1}&{1}&  {3}\\
+{-1}&{2}&  {4}\\
+\end{array}\right] \end{equation}\\\\\end{equation}  Wyliczamy wyznaczniki stąd: \\ 
+\begin{equation} \left|\left[\begin{array}{cc}
+{1} & {1} \\
+{-1} & {2} \\
+\end{array}\right]\right|\end{equation} $ W = {1}\cdot{2}- ( {1}\cdot{-1} ) $  = ${2}- ( {1}\cdot{-1} ) $ = ${2}- ( {-1} ) $ = ${2} + {1}$ = ${3}$ = ${3}$\\ \\ \clearpage  Stąd: \\ 
+  \begin{equation} \left|\left[\begin{array}{cc}
+{3} & {1} \\
+{4} & {2} \\
+\end{array}\right]\right|\end{equation} $ W_{c_1} = {3}\cdot{2}- ( {1}\cdot{4} ) $  = $ {6}- ( {1}\cdot{4} ) $  = $ {6}- ( {4} ) $  = $ {6} + {-4}$  = $ {2}$  = $ {2}$ \\ \\ 
+ 
+ \\ 
+ Stąd: \\ 
+ \begin{equation} \left|\left[\begin{array}{cc}
+{1} & {3} \\
+{-1} & {4} \\
+\end{array}\right]\right|\end{equation} $W_{c_2} = {1}\cdot{4}- ( {3}\cdot{-1} ) $  = $ {4}- ( {3}\cdot{-1} ) $  = $ {4}- ( {-3} ) $  = $ {4} + {3}$  = $ {7}$  = $ {7}$ $$
+
+
+Wyliczamy wartości parametrów:  $ C_1 $ i $C_2 $ 
+ 
+  $$ C_1 = \frac{ {2} }{ {3} } $$ 
+ 
+ 
+ $$   C_2 =   \frac{ {7} }{ {3} } $$ 
+   
+ 
+ I tak otrzymujemy wzór jawny na n-ty wyraz ciągu: \begin{equation} {{a}}_{{n}} = \frac{ {2} }{ {3} } \cdot\left({-1}\right)^ {{n}} + \frac{ {7} }{ {3} } \cdot{2}^ {{n}}\end{equation}
+
+$
+  \end{document}
